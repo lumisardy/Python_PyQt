@@ -1,0 +1,257 @@
+QDockWidget{
+
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        font-weight: bold;
+
+}
+
+QListWidget{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+QTabWidget::pane{
+
+    background-color: rgba(8, 1, 1, 0.3);
+    border: 0;
+}
+
+QTabWidget::tab{
+
+    background-color: rgba(19, 10, 10, 0.5);
+    color:white;
+    font-weight: bold;
+}
+
+QPushButton#botton_repeat{
+
+    background-color: gray;
+    image: url(Python/PYQT/8/repetir.png);
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+QPushButton#botton_repeat:pressed{
+
+        background-color: white;
+}
+
+QPushButton#botton_play{
+
+    background-color: gray;
+    image: url(Python/PYQT/8/play.png);
+    border-radius: 25px;
+    padding: 1px;
+
+}
+QPushButton#botton_play:pressed{
+
+    background-color: white;
+}
+
+QPushButton#botton_before{
+
+    background-color: gray;
+    image: url(Python/PYQT/8/before.png);
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+QPushButton#botton_before:pressed{
+
+    background-color: white;
+}
+
+QPushButton#botton_next{
+
+    background-color: gray;
+    image: url(Python/PYQT/8/after.png);
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+QPushButton#botton_next:pressed{
+
+    background-color: white;
+}
+
+QPushButton#botton_random{
+
+    background-color: gray;
+    background-image: url(Python/PYQT/8/aleatorio.png);
+    border-radius: 20px;
+    padding: 1px;
+
+}
+
+QPushButton#botton_random:pressed{
+
+    background-color: white;
+}
+
+QPushButton#button_F1{
+
+    image: url(Python/PYQT/6/espana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+}
+
+QPushButton#button_F1:pressed{
+
+    background-color: rgba(0,0,0,0.8);
+    
+
+}
+
+QPushButton#button_F2{
+
+    background-image: url(Python/PYQT/8/fondo2.jpeg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+}
+
+QPushButton#button_F2:pressed{
+
+    background-color: rgba(255, 255, 255, 0.8);
+    
+
+}
+
+QPushButton#button_F3{
+
+    background-image: url(Python/PYQT/8/fondo3.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+}
+
+QPushButton#button_F3:pressed{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    
+
+}
+
+QPushButton#button_F4{
+
+    
+    background-color: yellow;
+    border: black;
+    border-color: black;
+    color: black;
+    
+    
+    
+
+}
+
+QPushButton#button_F4:pressed{
+
+    background-color: rgba(0, 0, 0, 0.8);
+    
+
+}
+
+QStatusBar{
+
+    background-color: rgb(78,78,78);
+    color: white;
+    font-weight: bold;
+}
+
+QMenuBar{
+
+    background-color: rgb(29,29,29);
+    color: white;
+    font-weight: bold;
+
+}
+
+QMenuBar QMenu{
+
+    background-color: rgb(29,29,29);
+    color: white;
+    font-weight: bold;
+}
+
+QMenuBar QMenu::item::selected{
+
+    background-color: darkgray;
+}
+
+QMenuBar QMenu::item::pressed{
+
+    background-color: gray;
+}
+QSlider::groove:horizontal {
+    background-color: black;
+    height: 10px;
+    border-radius: 5px;
+}
+
+QSlider::handle:horizontal {
+    background-color: orange;
+    border: 1px solid #5c5c5c;
+    width: 20px;
+    height: 20px;
+    margin: -5px 0;  /* Alinea el thumb verticalmente */
+    border-radius: 10px; /* Hace el thumb circular */
+}
+
+QSlider::sub-page:horizontal {
+    background-color: green;
+    border-radius: 5px;
+}
+
+QSlider::add-page:horizontal {
+    background-color: red;
+    border-radius: 5px;
+}
+QTabWidget::pane {
+    border: 2px solid #555; /* Borde del área de pestañas */
+    border-radius: 5px;
+}
+
+QTabWidget::tab-bar {
+    alignment: center;
+}
+
+QTabBar::tab {
+    background: black; /* Color de fondo de las pestañas */
+    color: white; /* Color del texto de las pestañas */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid white; /* Borde inferior de las pestañas */
+    border-radius: 5px;
+}
+
+QTabBar::tab:selected {
+    background: black; /* Color de fondo de la pestaña seleccionada */
+    color: white; /* Color del texto de la pestaña seleccionada */
+    font-weight: bold;
+    border-bottom: 2px solid white; /* Borde inferior de la pestaña seleccionada */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+QLabel#song_image {
+    border-radius: 30px;  /* Ajusta el radio para los bordes redondeados */
+    background-image: url("Python/PYQT/8/musicon-compressed.jpg");
+    background-position: center;
+    background-repeat: no-repeat; /* Asegura que la imagen cubra completamente el QLabel */
+    
+}

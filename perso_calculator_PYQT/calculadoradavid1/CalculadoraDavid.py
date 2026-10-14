@@ -38,7 +38,7 @@ class MainWindow(QWidget):
         self.pointflag = "1"
         self.after_equal = False
         self.after_operator = False
-        with open("Python/David/calculadoradavid1/estilos_calcu.css","r") as file:
+        with open("estilos_calcu.css","r") as file:
             style = file.read()
         self.setStyleSheet(style)
         
